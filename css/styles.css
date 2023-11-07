@@ -11208,7 +11208,7 @@ p {
   border: none;
 }
 .btn-primary :hover {
-  background-color: #444444 !important;
+  background-color: none !important;
 }
 
 a:hover {
@@ -11217,6 +11217,7 @@ a:hover {
 
 .btn-primary:hover {
   background-color: #154444 !important;
+  color: #FFFFFF !important;
 }
 
 .hadimg img {
@@ -11378,6 +11379,9 @@ hr.deco {
 .logos {
   width: 160px;
   height: 30px;
+}
+.logos img {
+  cursor: pointer;
 }
 
 .tab-content img {
